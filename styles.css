@@ -1,0 +1,29 @@
+.home-button {
+	-webkit-user-select: none;
+	padding: 10px;
+	width: 100px;
+	border: 1px solid red;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+/*.home-button:hover {
+	background: #ccc;
+
+} */
+
+.text-field {
+	height: 300px;
+	width: 300px;
+	border: 1px solid red;
+	border-radius: 5px;
+	opacity: 0;
+	transition: all 2s;
+}
+
+.display {
+	display: block;
+}
+.opacity {
+	opacity: 1;
+}
